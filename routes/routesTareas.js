@@ -1,10 +1,9 @@
 const express = require('express');
+const controllersTareas  = require('../controllers/controllersTareas');
 const route = express.Router()
 
-const listaDeTareas = require("../tasks.js")
 
-route.get('/verTareas', (req, res) => {
-    res.json(listaDeTareas)
-})
+
+route.get('/verTareas', controllersTareas.verTareas)
 
 module.exports = route;
