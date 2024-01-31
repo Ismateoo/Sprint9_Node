@@ -12,3 +12,5 @@ const listaDeTareas = [
       completado: false,
     },
   ];
+
+  module.exports = listaDeTareas;
