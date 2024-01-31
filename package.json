@@ -1,0 +1,17 @@
+{
+  "name": "sprint9_node",
+  "version": "1.0.0",
+  "description": "¿Qué es Node JS?\r     Node JS es un entorno de ejecucion de JavaScript del lado del servidor.\r     Antes usabamos el navegador para ejecutar las aplicaciones del lado del cliente,\r     ahora vamos a usar Node JS para hacerlo del lado del servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "nodemon": "^3.0.3"
+  }
+}
