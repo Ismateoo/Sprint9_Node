@@ -1,12 +1,12 @@
 const listaDeTareas = [
     {
-      titulo: "Prueba 1",
+      titulo: "Prueba1",
       prioridad_id: 1,
       usuario_id: 1,
       completado: true,
     },
     {
-      titulo: "Prueba 2",
+      titulo: "Prueba2",
       prioridad_id: 1,
       usuario_id: 1,
       completado: false,
